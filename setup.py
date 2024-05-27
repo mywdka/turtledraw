@@ -11,7 +11,7 @@ setup(
     description=DESCRIPTION,
     packages=find_packages(),
     install_requires=[
-        "pyaxidraw @ https://cdn.evilmadscientist.com/dl/ad/public/AxiDraw_API.zip"
+        "axicli @ https://cdn.evilmadscientist.com/dl/ad/public/AxiDraw_API.zip"
     ],
     keywords=["python", "turtle", "turtle graphics", "axidraw", "plotter", "pen plotter"],
     classifiers=[
