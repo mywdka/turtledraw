@@ -52,10 +52,10 @@ class TurtleDraw:
         self.axidraw.go(x, y)
 
     def right(self, angle) -> None:
-        self._set_h(self._h + angle)
+        self.setheading(self._h + angle)
 
     def left(self, angle) -> None:
-        self._set_h(self._h - angle)
+        self.setheading(self._h - angle)
 
     def circle(self, radius, extent=None, steps=None):
         if extent is None:
